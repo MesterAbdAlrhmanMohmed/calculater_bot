@@ -2,7 +2,7 @@ import telegram
 from telegram import _update
 from telegram.ext import CommandHandler,MessageHandler,filters,ApplicationBuilder,CallbackQueryHandler,CallbackContext
 # بناء البوت عن طريق التوكن الخاص به
-البوت=ApplicationBuilder().token("6946080050:AAEXMlcOiVrLie4cj2Mb-N3S-9WAbxQjhB4").build()
+البوت=ApplicationBuilder().token("").build()
 # إنشاء دالة البوت وتحديد ARGs لإرسال الرسائل والحصول على معلومات المستخدم
 async def start(update:_update,context:CallbackContext):
     #متغير لجلب معلومات المستخدم
